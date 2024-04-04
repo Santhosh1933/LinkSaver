@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo {
+    font-family: "Dancing Script", cursive;
+    font-weight: 900;
+    @apply text-center text-3xl sm:text-5xl text-secondary 
+}
+
+.title {
+    @apply text-2xl sm:text-3xl font-bold text-slate-800
+}
