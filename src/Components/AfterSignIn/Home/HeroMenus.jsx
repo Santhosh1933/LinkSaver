@@ -7,7 +7,7 @@ export const HeroMenus = () => {
       <div>
         <h1 className="title">Categories :</h1>
         <div className="py-8">
-          <button className="border py-1 px-3 rounded-full">All</button>
+          <button className="border-2 border-secondary py-1 px-4 rounded-full">All</button>
         </div>
       </div>
     </div>
